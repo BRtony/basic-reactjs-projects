@@ -177,7 +177,7 @@ main {
 .container button {
   color: var(--clr-white);
   display: block;
-  width: 100%;
+  width: 40%;
   border-color: transparent;
   background: var(--clr-pink);
   margin: 2rem auto 0 auto;
@@ -188,4 +188,7 @@ main {
   border-radius: var(--radius);
   outline: 1px solid rgba(242, 138, 178, 0.8);
   cursor: pointer;
+}
+.container .buttons {
+  display: flex;
 }
